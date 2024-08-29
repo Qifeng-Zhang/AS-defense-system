@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #########################################################################
-# Description: Quality control of metagenomic raw reads.
+# Description: Quality control of metagenomic raw reads using kneaddata.
 # Requires: Kneaddata v0.12.0 and metagenomic raw reads (*.fastq files).
 #########################################################################
 
