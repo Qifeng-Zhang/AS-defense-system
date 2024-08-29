@@ -1,7 +1,9 @@
 #!/bin/bash
 
+#########################################################################
 # Description: Quality control of metagenomic raw reads.
 # Requires: Kneaddata v0.12.0 and metagenomic raw reads (*.fastq files).
+#########################################################################
 
 for file in `ls /PATH_TO_FASTQ_FILES/*1.fastq`
 do
@@ -15,3 +17,5 @@ kneaddata \
 --trimmomatic /PATH_TO_TRIMMOMATIC/ \
 --remove-intermediate-output
 done
+
+#########################################################################
