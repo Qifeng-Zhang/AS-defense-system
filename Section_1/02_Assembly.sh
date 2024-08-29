@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #########################################################################
-# Description: Metagenomic clean reads assembly.
+# Description: Metagenomic clean reads assembly using megahit.
 # Requires: Megahit v1.2.9 and metagenomic clean reads (*.fastq files).
 #########################################################################
 
