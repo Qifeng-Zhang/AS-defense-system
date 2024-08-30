@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #########################################################################
-# Description: Analysis of phage communities using virsorter2, virbrant, checkv, cd-hit, and coverm.
-# Requires: virsorter v2.2.4, virbrant v1.2.1, checkv v1.0.1, cd-hit v4.8.1, coverm v0.6.1 and contig files (*.fa files).
+# Description: Identification of phage using virsorter2 and virbrant.
+# Requires: virsorter v2.2.4, virbrant v1.2.1, and contig files (*.fa files).
 #########################################################################
 
 for file in `ls /PATH_TO_CONTIG_FILES/*.contigs.fa`
