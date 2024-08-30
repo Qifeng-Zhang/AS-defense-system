@@ -1,6 +1,12 @@
 #!/bin/bash
 
+#########################################################################
+# Description: Merge the output of virsorter2 (VS2) and virbrant (VB) and extract the phage sequence using shell and seqkit.
+# Requires: seqkit v2.3.1, VS2 output files (final-viral-score.tsv), VB output files (*.contigs.phages_combined.txt), and contig files (*.fa files).
+#########################################################################
+
 mkdir /PATH_TO_OUTPUT_MERGE_FILES/
+mkdir /PATH_TO_OUTPUT_PHAGE_SEQ_BEFORE_CV/
 
 for i in /PATH_TO_VS2_FILES/*
 do base=$(basename $i)
