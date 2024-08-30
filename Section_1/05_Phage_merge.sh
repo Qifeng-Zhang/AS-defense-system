@@ -42,7 +42,15 @@ cat /PATH_TO_OUTPUT_MERGE_FILES/${base}_vs0.9_0.7_hm1_id_uni.txt /PATH_TO_OUTPUT
 # add sample id
 sed -i "s/^/${base}\_/" /PATH_TO_OUTPUT_MERGE_FILES/${base}_vs_vb_merge_id_uni.txt
 
-# extract viral contig sequence
+# extract viral contig sequences
 seqkit grep -f /PATH_TO_OUTPUT_MERGE_FILES/${base}_vs_vb_merge_id_uni.txt /PATH_TO_CONTIG_FILES/${base}.contigs.fa -o /PATH_TO_OUTPUT_PHAGE_SEQ_BEFORE_CV/${base}_vs_vb_merge_uni.fa
 
 done
+
+#########################################################################
+
+# merge viral contig sequences
+cat /PATH_TO_OUTPUT_PHAGE_SEQ_BEFORE_CV/*_vs_vb_merge_uni.fa > /PATH_TO_OUTPUT_PHAGE_SEQ_BEFORE_CV/vseq_before_cv_merge.fa
+
+#########################################################################
+
