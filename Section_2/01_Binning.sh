@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #########################################################################
-# Description: Binning metagenomic data using metawrap.
+# Description: Binning using metawrap.
 # Requires: metawrap v1.3.2, clean reads (*.fastq), and contig files (*.contigs.fa).
 #########################################################################
 
