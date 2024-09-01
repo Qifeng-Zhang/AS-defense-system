@@ -2,7 +2,7 @@
 
 #########################################################################
 # Description: Calculate the abundance of phages using coverm.
-# Requires: coverm v0.6.1 and de-redundancy high confidence phage sequnences merge file (vseq_cv_merge_high_confidence_5k_dr.fa).
+# Requires: coverm v0.6.1, seqkit v2.3.1, and de-redundancy high confidence phage sequnences merge file (vseq_cv_merge_high_confidence_5k_dr.fa).
 #########################################################################
 
 for file in `ls /PATH_TO_CLEAN_READS/*_1.fq.gz`
