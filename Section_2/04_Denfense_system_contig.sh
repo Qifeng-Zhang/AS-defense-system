@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #########################################################################
-# Description: Identify complete defense systems in a contig using DefenseFinder.
+# Description: Identify complete defense systems in contigs using DefenseFinder.
 # Requires: defensefinder v1.2.1 and contig protein files (*.protein.fa).
 #########################################################################
 
