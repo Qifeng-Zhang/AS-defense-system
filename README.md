@@ -1,4 +1,4 @@
-# Long-Term Dynamics Reveal Antiviral Defense Systems as Key Stabilizers of Complex Bacterial Communities
+# Long-Term Dynamics Reveal Antiviral Defense Systems Stabilizing Complex Bacterial Communities in Activated Sludge
 Support scripts for this project.
 
 ## Sections
