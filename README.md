@@ -24,7 +24,7 @@ Support scripts for this project.
 * **07_Taxonomic_annotation_MAG.sh** Taxonomic annotation of MAGs using [GTDB-Tk](https://github.com/Ecogenomics/GTDBTk).
 * **08_Denfense_system_abundance_contig.sh** Calculate the abundance of defense systems using [CoverM](https://github.com/wwood/CoverM).
 * **09_ANI_MAG.sh** Use [FastANI](https://github.com/ParBLiSS/FastANI) to calculate ANI between MAGs.
-* **10_Phylogenetic_tree_MAG.sh** Using [PhyloPhlAn](https://github.com/biobakery/phylophlan) to construct a phylogenetic tree of MAGs.
+* **10_Phylogenetic_tree_MAG.sh** Use [PhyloPhlAn](https://github.com/biobakery/phylophlan) to construct a phylogenetic tree of MAGs.
 
 ### 3) Identification and extraction of CRISPR spacers and their matching with vOTUs
 * **01_CRISPR_spacer_identify.sh** Identify and extract CRISPR spacers in clean reads using [CRASS](https://github.com/ctSkennerton/crass).
