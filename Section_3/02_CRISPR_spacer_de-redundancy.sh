@@ -21,10 +21,8 @@ j=`basename $file .Spacers_dr.fasta`
 sed -i "s/>/>$j\_/" /PATH_TO_CRASS_FILES/Spacers_dr/$j.Spacers_dr.fasta
 done
 
-#
 cat /PATH_TO_CRASS_FILES/Spacers_dr/*.Spacers_dr.fasta > /PATH_TO_CRASS_FILES/Spacers_dr/Spacers_total.fasta
 
-#
 cd-hit-est \
 -i /PATH_TO_CRASS_FILES/Spacers_dr/Spacers_total.fasta \
 -o /PATH_TO_CRASS_FILES/Spacers_dr/Spacers_total_dr.fasta \
