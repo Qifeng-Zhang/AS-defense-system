@@ -21,7 +21,7 @@ for file in `ls /PATH_TO_OUTPUT_KREPORT/$j.kreport`
 do
 j=`basename $file .kreport`
 echo "Processing $j..."
-python3 /home/zqf/KrakenTools/kraken2_translate.py \
+python3 /PATH_TO_KRAKENTOOLS/kraken2_translate.py \
 --report /PATH_TO_OUTPUT_KREPORT/$j.kreport \
 --classification /PATH_TO_OUTPUT_KRAKEN/$j.kraken \
 --output /PATH_TO_OUTPUT_TAXONOMY/$j.csv \
