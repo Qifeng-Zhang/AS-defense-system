@@ -1,4 +1,4 @@
-# Long-Term Dynamics Reveal Antiviral Defense Systems Stabilizing Complex Bacterial Communities in Activated Sludge
+# Long-term dynamics reveal antiviral defense systems stabilize complex bacterial communities in activated sludge
 Support scripts for this project.
 
 ## Sections
