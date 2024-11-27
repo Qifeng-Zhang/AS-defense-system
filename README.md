@@ -1,4 +1,4 @@
-# Long-term dynamics reveal antiviral defense systems stabilize complex bacterial communities in activated sludge
+# A long-term metagenomic insight in the roles of antiviral defense systems in stabilizing complex bacterial communities of activated sludge
 Support scripts for this project.
 
 ## Sections
