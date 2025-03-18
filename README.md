@@ -1,4 +1,4 @@
-# A long-term metagenomic insight in the roles of antiviral defense systems in stabilizing complex bacterial communities of activated sludge
+# Long-term metagenomic insights into the roles of antiviral defense systems in stabilizing activated sludge bacterial communities
 Support scripts for this project.
 
 ## Sections
