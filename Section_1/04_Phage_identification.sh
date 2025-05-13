@@ -2,7 +2,7 @@
 
 #########################################################################
 # Description: Identification of phage using virsorter2 and virbrant.
-# Requires: virsorter v2.2.4, virbrant v1.2.1, and contig files (*.fa files).
+# Requires: virsorter v2.2.4, vibrant v1.2.1, and contig files (*.fa files).
 #########################################################################
 
 for file in `ls /PATH_TO_CONTIG_FILES/*.contigs.fa`
