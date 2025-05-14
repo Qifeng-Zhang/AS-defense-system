@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #########################################################################
-# Description: Merge the output of virsorter2 (VS2) and virbrant (VB) and extract the phage sequence using shell and seqkit.
+# Description: Merge the output of virsorter2 (VS2) and vibrant (VB) and extract the phage sequence using shell and seqkit.
 # Requires: seqkit v2.3.1, VS2 output files (final-viral-score.tsv), VB output files (*.contigs.phages_combined.txt), and contig files (*.fa files).
 #########################################################################
 
